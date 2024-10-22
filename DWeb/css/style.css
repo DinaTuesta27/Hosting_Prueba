@@ -1,0 +1,388 @@
+  header{
+    width: 132%; /*Tamaño y 100% para que se adapte a cualquier panatalla*/
+    height: 15%;
+    background-color: aliceblue;
+  }
+  .Fondo {
+    width: 132%;
+ }
+ .html{
+  display: flex;
+ }
+  body{
+    width: 75%;
+    background-color:#FFCCFF  ;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: content-box;
+  }
+  
+  /*Efecto Hover en todas las imágenes*/
+  img:hover{
+    transform: scale(1.15);
+  }
+  /*Fin*/
+
+  h1{
+    font-family: "Anta", sans-serif;
+    transition: border-bottom 0.3s;
+  }
+
+  h1:hover{
+    text-decoration: underline;
+  }
+  
+  h1.TituloPrincipal {
+    margin-bottom: -2em;
+    font-size: 2em;
+  }
+
+  h2{
+    font-size: 2em;
+    margin-left: 20em;
+    animation: bounceIn 0.5s forwards;
+  }
+  h2:hover{
+    text-decoration: underline;
+  }
+
+  /* Estilos para todas las imágenes dentro de los artículos */
+  article img {
+  max-width: 100%; /* Establece el ancho máximo de la imagen al 100% del contenedor */
+  height: auto; /* Permite que la altura se ajuste automáticamente */
+  transition: transform 0.5s ease;
+  }
+
+/* Alinear texto entre dos imágenes VERTICALMENTE */
+  .divison{
+    display: flex;
+    align-items: center;
+  }
+
+  .Ima-iz{
+    margin-right: 10px; /*Ajustar espacio de la imagen con el texto */
+    display: flow;
+    margin-left: -65em;
+    margin-top: 9em;
+    max-width: 30%; /* Ajustar el ancho de la imagen */
+  }
+  .Ima-de{
+    margin-left: 10px; /*Ajustar espacio de la imagen con el texto */
+    margin-left: 69em;
+    margin-top: -26em;
+  }
+  /*fin */
+
+    /* Línea */
+  hr{
+    border: 2px solid black;
+    margin: 10px;
+    width: 131%;
+  }
+
+  .Html{
+    background-color: #BBDEFB  ;
+    display: block;
+    width: 132%;
+  }
+
+  .Ipv{
+    background-color: #E3F2FD;
+    display: block;
+    width: 132%;
+  }
+
+  .Ip {
+    background-color: #CCFFFF;
+    display: block;
+    width: 94em;
+    height: 20em;
+  }
+
+    /* Recuadro de cuatro Textos*/
+    .Dhcp {
+    background-color: #B39DDB;
+    display: block;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 0 45%;
+    margin: 10px;
+    padding: 25px;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 127%;
+  }
+  .Dns {
+    background-color: #5C6BC0;
+    display: block;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 0 45%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 128%;
+  }
+  .Web {
+    background-color: #F48FB1;
+    display: block;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 0 45%;
+    margin: 10px;
+    padding: 25px;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 126%;
+  }
+  .Correo {
+    background-color: #F06292;
+    display: block;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 0 45%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 129%;
+  }
+  
+  /*Pagina del TCP*/
+  .divide{
+    width: 500px; /*Encuadre (espacio) del titulo y parrafos*/
+  }
+  .tituloh2{
+    font-size: 30px;
+    margin-top: 0px; /* espacio del borde */
+    margin-bottom: 10px;
+  }
+  .tcpip{
+    font-size: 14px;
+  }
+  
+  
+  .img{
+    width: 500px;
+  }
+
+  .imagen{
+    width: 500px;
+    border-radius: 100px;
+    display: flex;
+    margin-left: 6em;
+    padding: 17px;
+    background-color: #add5fa;
+  }
+  .protocolo{
+    background-color: #d7bde2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 132%;
+  }
+
+  /*Texto del html y css*/
+  .sangria {
+    line-height: 30px;
+    display: flow;
+    margin-left: 30em;
+    margin-right: 23em;
+    margin-top: -34em;
+    text-align: justify;
+    padding-bottom: 3em;
+  }
+
+  /*Ordenar lista*/
+  .desordenLista {
+    justify-content: space-between;
+    display: flex;
+    background-color: cornsilk;
+    color: black;
+    padding: 17px;
+    width: 129%;
+  }
+  a {
+    color: firebrick;
+    /* Animación de cambio de color al pasar el cursor por la lista*/
+    transition: color 0.3s;
+  }
+
+  a:hover {
+    color: blueviolet; /* Color al pasar el cursor */
+  }
+  /*Fin */
+
+  .IP {
+    border-radius: 100px;
+    width: 500px;
+    padding: 5px;
+    background-color: #bc98f3;
+    display: flex;
+    margin-left: 8em;
+    margin-bottom: -3em;
+    margin-top: -1em;
+  }
+
+   /* Página IPV */
+   h2.TituloIPv4 {
+    display: flex;
+    margin-left: 33em;
+  }
+
+  h2.tituloIPv6 {
+    display: flex;
+    margin-left: 9em;
+    margin-top: 3em;
+  } 
+
+  .ipv {
+    width: 500px;
+    display: flex;
+    margin-right: -49em;
+    margin-top: -20em;
+    padding: 10px;
+    background-color: #c0a0c3;
+  }
+
+  img.IPv46 {
+    border-radius: 100px;
+    width: 500px;
+    padding: 5px;
+    background-color: #5086c1;
+    display: flex;
+    margin-left: -52em;
+    margin-bottom: -3em;
+    margin-top: -12em;
+  }
+
+  p2 {
+    display: flex;
+    margin-left: 51em;
+    margin-right: 7em;
+    text-align: justify;
+  }
+
+  p3 {
+    display: flex;
+    margin-left: 3em;
+    margin-right: 52em;
+    margin-top: 1em;
+    margin-bottom: -1em;
+    text-align: justify;
+  }
+
+   /* Página IPV FIN */
+
+  p4.tcpIp {
+    display: flex;
+    margin-left: 3em;
+    margin-right: -11em;
+    text-align: justify;
+    margin-bottom: 1em;
+  }
+
+  p6 {
+    display: flow;
+    margin-left: 49em;
+    margin-right: 13em;
+    margin-top: -13em;
+    text-align: justify;
+    padding-bottom: 6em;
+  }
+
+  /* Alinear texto Servidores*/
+  p7 {
+    text-align: justify;
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+
+  img.dh {
+    border-radius: 30%;
+    width: 58em;
+    margin-left: -1em;
+  }
+
+  p8 {
+    text-align: justify;
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+
+  img.dn {
+    margin-right: 2em;
+    border-radius: 400%;
+  }
+
+  p9 {
+    text-align: justify;
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  
+  img.we {
+    border-radius: 2em;
+    margin-right: 2em;
+    width: 100%;
+  }
+
+  p10 {
+    text-align: justify;
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+
+  img.cor {
+    width: 24em;
+    border-radius: 50%;
+  }
+  /* Fin*/
+
+  h2.tituloServidor {
+    margin-right: -1em;
+    margin-left: 1em;
+ }
+
+
+ .tituloh2 {
+  font-size: 40px;
+  margin-top: 13px;
+  margin-bottom: 2px;
+  margin-left: 31em;
+}
+
+
+/*PATO*/
+#pato {
+  position: fixed;
+  width: 100px; /* Ancho de la imagen del pato */
+}
+
+/*Boton de ir arriba*/
+button#botonArriba {
+    display: flex;
+    margin-left: 45em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    font-size: 16px;
+  }
+#botonArriba:hover {
+  background-color: #0056b3; /* Cambio de color al pasar el cursor */
+}
